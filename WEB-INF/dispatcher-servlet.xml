@@ -27,7 +27,7 @@
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
     	<property name="locations">
 	    	<list>
-				<!-- This is for Development & Production Server -->
+				<!-- This is for Development & Production Server connection string -->
 				 <value>file:///opt/properties/environment.properties</value>
 			</list>
 		</property>

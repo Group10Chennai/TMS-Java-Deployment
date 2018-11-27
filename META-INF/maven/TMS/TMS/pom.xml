@@ -170,6 +170,7 @@
 	    <version>2.0</version>
 	</dependency>
     
+    <!-- jar for file uploader -->
     <dependency>
 	   	<groupId>commons-fileupload</groupId>
 	   	<artifactId>commons-fileupload</artifactId>

@@ -9,6 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
@@ -49,7 +50,7 @@
   </filter-mapping>
   
   <session-config>
-  	<!-- 10 min -->
+  	<!-- ten min -->
     <session-timeout>-1</session-timeout>
   </session-config>
 </web-app>
