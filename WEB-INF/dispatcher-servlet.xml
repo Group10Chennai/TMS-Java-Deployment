@@ -12,7 +12,7 @@
 		http://www.springframework.org/schema/mvc
 		http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
 		http://www.springframework.org/schema/tx
-		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd" >
 
 
 	<!-- <context:property-placeholder location="classpath:log4j.properties" /> -->
@@ -29,6 +29,7 @@
 	    	<list>
 				<!-- This is for Development & Production Server connection string -->
 				 <value>file:///opt/properties/environment.properties</value>
+				 <!-- value>C:\opt\properties\environment.properties</value-->
 			</list>
 		</property>
 		<property name="ignoreUnresolvablePlaceholders" value="true"/>
