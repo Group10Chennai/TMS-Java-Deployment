@@ -7,7 +7,7 @@
   
   <properties>
 		 <!-- <spring.version>3.2.2.RELEASE</spring.version>  -->
-		<spring.version>4.2.1.RELEASE</spring.version>
+		<spring.version>5.3.19</spring.version>
 		
 		<springdata.version>1.2.1.RELEASE</springdata.version>
 		<jackson.version>1.9.10</jackson.version>
